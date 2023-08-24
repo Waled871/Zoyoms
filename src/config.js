@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
-  token: process.env.TOKEN || '', 
+  token: process.env.TOKEN || 'MTA1MDg1NDE1NjQ4ODkzMzM5Ng.GDOykb.F3J8zN5IobxyLBhhH9pE6VcpFCMQjmEJNpkVHA', 
   prefix: process.env.PREFIX || '.', 
   ownerID: process.env.OWNERID?.split(',') || ['519666024220721152','965503342249914408'], 
   SpotifyID: process.env.SPOTIFYID || '', 
